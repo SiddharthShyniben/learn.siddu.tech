@@ -1,9 +1,36 @@
 .top-landing
 	display: flex
-	margin: 1vw
+	margin: 1rem
+	transition: all 500ms
 
 	img
-		width: 48vw
+		width: 30rem
 
 	img, div
-		margin: .5vw
+		margin: 1rem
+		transition: all 500ms
+
+	div h1
+		margin-top: 0
+		transition: all 500ms
+
+@media screen and (max-width: 1070px)
+	.top-landing
+		img
+			width: 20rem
+
+@media screen and (max-width: 980px)
+	.top-landing
+		div
+			h1
+				font-size: 80px
+
+@media screen and (max-width: 980px)
+	.top-landing
+		div
+			h1, h1 *
+				font-size: 60px
+
+@media screen and (max-width: 730px)
+	.top-landing
+		flex-direction: column-reverse
