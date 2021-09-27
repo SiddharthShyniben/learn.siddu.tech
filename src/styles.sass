@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+body
+	background-color: rgba(247, 162, 120, 0.1)
+
 *, .content
 	font-family: 'Lekton', sans-serif
 	font-weight: 400
@@ -56,6 +59,19 @@ button
 	letter-spacing: 1.25px
 	text-transform: capitalize
 
+	border: none
+	background-color: #f7a278
+	padding: .5em
+	border-radius: 5px
+
+	transition: all 100ms
+
+	&:hover
+		filter: brightness(1.2)
+
+	&:focus
+		filter: brightness(1.4)
+
 caption, figcaption, .caption
 	font-size: 13px
 	letter-spacing: 0.4px
@@ -65,6 +81,6 @@ mark
 	padding: 0.1em 0.4em
 	border-radius: 0.8em 0.3em
 	background: transparent
-	background-image: linear-gradient(to right, rgba(200, 233, 160, 0.1), rgba(200, 233, 160, 0.7) 4%, rgba(200, 233, 160, 0.3))
+	background-image: linear-gradient(to right, rgba(247, 162, 120, 0.1), rgba(247, 162, 120, 0.7) 4%, rgba(247, 162, 120, 0.3))
 	-webkit-box-decoration-break: clone
 	box-decoration-break: clone
