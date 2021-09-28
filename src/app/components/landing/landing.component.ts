@@ -5,4 +5,15 @@ import {Component} from '@angular/core';
 	templateUrl: './landing.component.html',
 	styleUrls: ['./landing.component.sass']
 })
-export class LandingComponent {}
+export class LandingComponent {
+	navItems: {text: string, link: string}[] = [
+		{
+			text: 'Learn',
+			link: 'learn'
+		},
+		{
+			text: 'Sign up',
+			link: 'signup'
+		}
+	];
+}
