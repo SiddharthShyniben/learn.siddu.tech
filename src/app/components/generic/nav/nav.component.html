@@ -1,0 +1,11 @@
+<nav>
+	<strong>teach.learn</strong>
+	<input type='text' placeholder='Search courses'>
+	<ol>
+		<li *ngFor='let item of items'>
+			<button>
+				<a [routerLink]='item.link'>{{item.text}}</a>
+			</button>
+		</li>
+	</ol>
+</nav>
