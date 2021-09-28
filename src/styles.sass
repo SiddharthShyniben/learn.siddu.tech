@@ -1,8 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+*
+	box-sizing: border-box
+
 body
 	background-color: rgba(247, 162, 120, 0.1)
+	padding: 0 2em
 
-*, .content
+p, div, section, nav, button, a .content
 	font-family: 'Lekton', sans-serif
 	font-weight: 400
 	font-size: 18px
@@ -66,6 +70,10 @@ button
 
 	transition: all 100ms
 
+	a
+		text-decoration: none
+		color: inherit
+
 	&:hover
 		filter: brightness(1.2)
 
@@ -84,3 +92,9 @@ mark
 	background-image: linear-gradient(to right, rgba(247, 162, 120, 0.1), rgba(247, 162, 120, 0.7) 4%, rgba(247, 162, 120, 0.3))
 	-webkit-box-decoration-break: clone
 	box-decoration-break: clone
+
+input
+	border: none
+	background-color: #EBEFF1
+	padding: 5px
+	border-radius: 5px
