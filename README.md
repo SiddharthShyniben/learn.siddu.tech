@@ -1,4 +1,4 @@
-# teach.learn
+# <learn.siddu.tech>
 
 ## color palette
 
